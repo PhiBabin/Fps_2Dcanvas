@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="3d stuffs..." />
+<meta charset=utf-8 />
+<title>Fps Project</title>
+</head>
+<body >
+  <!--  onmousemove="setMousePos(event)" -->
+    
+ <div id="pointer-lock-element"> 
+   <canvas id="canvas" width="400px" height="400px" tabindex="0" style="border-width:1px; border-style: solid;" onclick="lockPointer();"></canvas>
+  </div>
+
+<input value="Pause" onclick="paused()" type="button"/>
+<input type="file" id="files" name="files[]" />
+<div id="log" width="400px" height="100px"> </div>
+<script type="text/javascript" src="matrix.js"></script> 
+<script type="text/javascript" src="vector.js"></script> 
+<script type="text/javascript" src="main.js"></script> 
+  
+</body>
+</html>
